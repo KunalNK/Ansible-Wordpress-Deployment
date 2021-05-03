@@ -5,7 +5,7 @@
   tasks:
     - name: Launch instance
       ec2:
-         key_name: ansible
+         key_name: demo-ec2
          group: ansible-demo
          instance_type: t2.micro
          image: ami-045e6fa7127ab1ac4
